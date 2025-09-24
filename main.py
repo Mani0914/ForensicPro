@@ -32,7 +32,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 
 LOG_FILE = "forensictool.log"
 DB_NAME = "forensic.db"
-VIRUSTOTAL_API_KEY = "2b18067185f5d2967d75eb250c05152211d006dc3eb9f93158e34193c5992821"  # Replace with your actual API key
+VIRUSTOTAL_API_KEY = "your virus total api key"  # Replace with your actual API key
 
 logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -1562,3 +1562,4 @@ if __name__ == '__main__':
         main_window.show()
         sys.exit(app.exec_())
     db_manager.disconnect()
+
