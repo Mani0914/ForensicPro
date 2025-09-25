@@ -2,6 +2,17 @@
 Browser artifacts extracter,Detection of USB devices &  its activity with Live system analysis,Comparing files,Malware Scanning
 
 **Technologies Used**
+Programming Language:-python
+GUI Framework :- PyQt5
+Database:- SQLite3
+Hashing Passwords :- bcrypt
+System Interaction :- psutil
+Cryptography:- hashlib
+Virus Total :-API
+Requests
+Virtualization :- matplotlib
+Reporting:- reportlab
+Exporting:-csv
 
 This tool uses a QFileDialog to select a file for malware analysis, then passes the file path to `MainWindow.analyze_malware()`.
 
